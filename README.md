@@ -18,7 +18,7 @@ This repository contains two compound documents designed to showcase the advance
 
 1. Download [INTEGRAL Desktop](https://integral.ws/download-desktop) for your platform. Extract the downloaded ZIP to a directory of your choice. We'll refer to this directory as **PATH_TO_INTEGRAL_EXTRACT_DIR**.
 
-2. Add INTEGRAL Interpreter to your system PATH using the commands below. When typing the following commands, make sure you replace `C:\PATH_TO_INTEGRAL_EXTRACT_DIR` or `/PATH_TO_INTEGRAL_EXTRACT_DIR` with the path to your actual extraction folder.
+2. Add INTEGRAL Interpreter to your system PATH using the commands below. When typing these commands, make sure you replace `C:\PATH_TO_INTEGRAL_EXTRACT_DIR` or `/PATH_TO_INTEGRAL_EXTRACT_DIR` with the path to your actual extraction folder.
 
 **Windows (Command Prompt)**
 
