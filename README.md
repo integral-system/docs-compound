@@ -87,12 +87,14 @@ integral-interp-linux journal-neural/make.i
 
 All these sample documents will open in **INTEGRAL Document Editor**, where they can be further manipulated or exported to **PDF** or **SVG** format.
 
-#### INTEGRAL Source Files
+### INTEGRAL Source Files
 
-> INTEGRAL source files are standard UTF-8 text files with a `.i` extension. To modify them, simply use your favorite text editor. For the best experience, set your editor's syntax highlighting to **Squirrel**, **C++**, **C** or **Java**.
+INTEGRAL source files are standard UTF-8 text files with a `.i` extension. To modify them, simply use your favorite text editor. For the best experience, set your editor's syntax highlighting to **Squirrel**, **C++**, **C** or **Java**.
 
 ### Incremental Build System
 
 The first time you run `journal-neural/make.i`, the **INTEGRAL Interpreter** may take a few seconds to compile and render the full 20-page document. 
 
 However, subsequent runs will be nearly instantaneous. If you modify specific articles within this compound document, only the changed sections will be rebuilt. This **incremental build system** ensures a fast and efficient workflow, even when working with complex, multi-part publications.
+
+> **Pro Tip:** To force a complete rebuild from scratch, simply delete the `.tmp` files located in the `letter-job/cache/` or `journal-neural/cache/` subdirectories.
