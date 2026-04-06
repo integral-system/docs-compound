@@ -101,7 +101,7 @@ All these sample documents will open in **INTEGRAL Document Editor**, where they
 
 ### INTEGRAL Source Files
 
-INTEGRAL is an extension of the Squirrel programming language. INTEGRAL source files are standard UTF-8 text files with a `.i` extension. To modify them, simply use your favorite text editor. For the best experience, set your editor's syntax highlighting to **Squirrel**; if that isn't available, **C++**, **C** or **Java** are suitable alternatives.
+INTEGRAL is an extension of the [Squirrel](https://github.com/albertodemichelis/squirrel) programming language. INTEGRAL source files are standard UTF-8 text files with a `.i` extension. To modify them, simply use your favorite text editor. For the best experience, set your editor's syntax highlighting to **Squirrel**; if that isn't available, **C++**, **C** or **Java** are suitable alternatives.
 
 ### Incremental Build System
 
