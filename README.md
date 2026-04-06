@@ -83,9 +83,15 @@ integral-interp-linux letter-job/make.i
 integral-interp-linux journal-neural/make.i
 ```
 
-### View, Manipulate & Export INTEGRAL Demos
+### View, Manipulate & Export
 
 All these sample documents will open in **INTEGRAL Document Editor**, where they can be further manipulated or exported to **PDF** or **SVG** format.
+
+![INTEGRAL Compound Document Screenshot - 1](https://github.com/user-attachments/assets/35965f53-8f56-4621-b4da-37550cca7967)
+
+![INTEGRAL Compound Document Screenshot - 2](https://github.com/user-attachments/assets/8c4385bd-8664-4463-b547-0086df2ea657)
+
+![INTEGRAL Compound Document Screenshot - 3](https://github.com/user-attachments/assets/668d2753-8bf5-4226-9d80-d2adfc2868dd)
 
 ### INTEGRAL Source Files
 
