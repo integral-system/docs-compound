@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
-This repository contains two compound documents designed to showcase the advanced capabilities of the **INTEGRAL Interpreter**: compound document creation with automatic tables of contents, advanced layout, figures, tables, etc.
+This repository contains two examples designed to showcase the advanced capabilities of the **INTEGRAL Interpreter**: compound document creation, automatic tables of contents, advanced layout, figures, tables, and more.
 
 ## Featured Demos
 
