@@ -7,7 +7,7 @@ This repository contains two examples designed to showcase the advanced capabili
 ## Featured Demos
 
 * **Simple Job Letter** ([letter-job/doc.i](letter-job/doc.i)): A simple but professional-looking 2-page job recommendation letter.
-* **Complex Publication** ([journal-neural/doc.i](journal-neural/doc.i)): A complex publication consisting of 20 pages and 4 articles that showcases the advantage of INTEGRAL's incremental build system.
+* **Complex Publication** ([journal-neural/doc.i](journal-neural/doc.i)): A complex publication consisting of 20 pages and 4 articles that showcases INTEGRAL's incremental build system.
 
 ![INTEGRAL Compound Document Screenshot - 1](https://github.com/user-attachments/assets/35965f53-8f56-4621-b4da-37550cca7967)
 
