@@ -1,6 +1,6 @@
-::my.include("../../common/includes/integral/doc-base.i");
-::my.include("../../common/includes/integral/doc-list.i");
-::my.include("../../common/includes/integral/doc-pict.i");
-::my.include("../../common/includes/integral-make.i");
+::my.include("../integral/common/includes/integral/doc-base.i", DV_DIR_EXE);
+::my.include("../integral/common/includes/integral/doc-list.i", DV_DIR_EXE);
+::my.include("../integral/common/includes/integral/doc-pict.i", DV_DIR_EXE);
+::my.include("../integral/common/includes/integral-make.i", DV_DIR_EXE);
 
 Make();

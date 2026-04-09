@@ -1,12 +1,12 @@
 function CMyDocument::Article_MainContent(title, params)
 {
-	SetFontmap("../../common/fontmaps/stix-1.inf");
+	SetFontmap("fontmaps/stix-1.inf");
 
 	UpdateBaseFormat({FontSize = 100, Align = DE_ALIGN_JUSTIFY_A_LEFT});
 
 	local t = Run();
 
-	t + Pict({Src = "../../common/assets/integral-hor.png", SizeScale = 1000, RunFormat = {Align = DE_ALIGN_CENTER}, NewlineFlag = 2, BaseAlign = DE_BASEALIGN_MIDDLE})
+	t + Pict({Src = "assets/integral-hor.png", SizeScale = 1000, RunFormat = {Align = DE_ALIGN_CENTER}, NewlineFlag = 2, BaseAlign = DE_BASEALIGN_MIDDLE})
 
 	+ "Jim Olsen\rIntegral Systems Inc.\r810 Albert Lane\rToronto, Ontario, M3G 1T2"
 
@@ -52,7 +52,7 @@ function CMyDocument::Article_MainContent(title, params)
 
 	+ Gap({SpacingFactor = 480})
 
-	+ Pict({Src = "../../common/assets/signature-jo.png", SizeScale = 1500, NewlineFlag = 2, BaseAlign = DE_BASEALIGN_MIDDLE}) + "Jim Olsen\rIntegral Systems Inc.";
+	+ Pict({Src = "assets/signature-jo.png", SizeScale = 1500, NewlineFlag = 2, BaseAlign = DE_BASEALIGN_MIDDLE}) + "Jim Olsen\rIntegral Systems Inc.";
 
 	TextFlow(params.Page, 2, 1, 0, params.X, params.Y, params.W, params.H, t);
 }

@@ -45,7 +45,7 @@ class CMyDocument extends CDTDocumentBasic
 	constructor()
 	{
 		//base.constructor(fontmap, construct_flags, internal_flags, index_mask, auto_reflow, final_cleanup);
-		base.constructor("../../common/fontmaps/stix-1.inf");
+		base.constructor("fontmaps/stix-1.inf");
 
 		/*Index_Acronyms*/ Index.Dictionary =
 		{

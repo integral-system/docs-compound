@@ -67,7 +67,7 @@ function CMyDocument::Article_Sidebar(title, params)
 function CMyDocument::Article_MainContent(title, params)
 {
 	/* fontmap */
-	//SetFontmap("../../common/fontmaps/stix-1.inf");
+	//SetFontmap("fontmaps/stix-1.inf");
 
 	UpdateBaseFormat({FontSize = 78, MarginLeft = 0, Hyphenation = 1, Align = DE_ALIGN_JUSTIFY_A_LEFT});
 
@@ -94,7 +94,7 @@ function CMyDocument::Article_MainContent(title, params)
 
 	UpdateBaseFormat({MarginLeft = 1700});
 
-	t + {Bold = 1, Text = "Jim Olsen\r"} + Pict({SizeScale = 1560, Src = GetAssetDir("common") + "signature-jo.png"});
+	t + {Bold = 1, Text = "Jim Olsen\r"} + Pict({SizeScale = 1560, Src = GetAssetDir() + "signature-jo.png"});
 
 	UpdateBaseFormat({MarginLeft = 0});
 
@@ -128,7 +128,7 @@ function CMyDocument::ExecUnit(params)
 
 	TextArea(p, x + 1650, y + 450, w - 1650, 0, {Text = "Announcing a unique publishing system", FontSize = 170, FontUniqueID = "F0011_STIX1__cS4"}, {RowType = DE_ROW_TYPO});
 
-	Pict({Page = p, X = w - 400, Y = y + 800, SizeScale = 1325, Quality = DE_QUALITY_HIGH, Src = GetAssetDir("common") + "profile-dk.png"}, true);
+	Pict({Page = p, X = w - 400, Y = y + 800, SizeScale = 1325, Quality = DE_QUALITY_HIGH, Src = GetAssetDir() + "profile-dk.png"}, true);
 
 	MakeArticle(Article_MainContent, "Letter From The Editor", params);
 }
