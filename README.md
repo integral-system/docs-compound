@@ -6,8 +6,8 @@ This repository contains two examples designed to showcase the advanced capabili
 
 ## Featured Demos
 
-* **Simple Job Letter (`letter-job/make.i`):** A simple but professional-looking 2-page job recommendation letter.
-* **Complex Publication (`journal-neural/make.i`):** A complex publication consisting of 20 pages and 4 articles that showcases the advantage of INTEGRAL's incremental build system.
+* **Simple Job Letter** ([letter-job/doc.i](letter-job/doc.i)): A simple but professional-looking 2-page job recommendation letter.
+* **Complex Publication** ([journal-neural/doc.i](journal-neural/doc.i)): A complex publication consisting of 20 pages and 4 articles that showcases the advantage of INTEGRAL's incremental build system.
 
 ![INTEGRAL Compound Document Screenshot - 1](https://github.com/user-attachments/assets/35965f53-8f56-4621-b4da-37550cca7967)
 
@@ -54,7 +54,7 @@ sudo ln -s /PATH_TO_INTEGRAL_EXTRACT_DIR/exec/integral-interp-linux /usr/local/b
 
 ### Download and Execute INTEGRAL Demos
 
-1. [Download](https://github.com/integral-system/docs-compound/archive/refs/heads/main.zip) or clone this repository (`docs-compound`):
+1. [Download](https://github.com/integral-system/docs-compound/archive/refs/heads/main.zip) or clone this repository (`docs-compound`).
 
 ```shell
 git clone https://github.com/integral-system/docs-compound.git
@@ -66,7 +66,7 @@ git clone https://github.com/integral-system/docs-compound.git
 cd docs-compound/
 ```
 
-3. Execute the demos:
+3. Execute the demos.
 
 **Windows**
 
